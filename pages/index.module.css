@@ -26,6 +26,9 @@
   align-items: center;
   padding-top: 60px;
 }
+.apikeyform{
+display:none;
+}
 .main .icon {
   width: 120px;
 }
