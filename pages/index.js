@@ -47,20 +47,6 @@ export default function Home() {
         content= "width=device-width, initial-scale=1.0"></meta>
         <link rel="icon" href="/thera.png" />
       </Head>
-  
-  /**
-  <form className={styles.apikeyform}  id="apikey-form" onSubmit={addKey}>
-        <p>OpenAI API key not configured. <br>
-        </br>please go to <a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a> to get an API key</p>
-          <input
-            type="text"
-            id="key"
-            placeholder="Enter APIKey"
-          value={process.env.OPENAI_API_KEY}
-          onChange={(e) => setKey(e.target.value)}
-          />
-          <input type="submit" value="Save" />
-      </form>**/
       
       <main className={styles.main}>
         <img src="/thera.png" className={styles.icon} />
