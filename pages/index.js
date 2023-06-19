@@ -26,7 +26,7 @@ export default function Home() {
       const data = await response.json();
       if (response.status !== 200) {
         //document.getElementById("apikey-form").style.display = "block";
-        alert(`Request failed with, check API key`);
+        alert(`Request failed, check API key`);
         throw data.error || new Error(`Request failed with status ${response.status}`);
     
       }
