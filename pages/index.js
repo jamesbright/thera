@@ -25,7 +25,7 @@ export default function Home() {
 
       const data = await response.json();
       if (response.status !== 200) {
-        document.getElementById("apikey-form").style.display = "block";
+        //document.getElementById("apikey-form").style.display = "block";
         throw data.error || new Error(`Request failed with status ${response.status}`);
     
       }
@@ -48,7 +48,7 @@ export default function Home() {
         <link rel="icon" href="/thera.png" />
       </Head>
   
-  
+  /**
   <form className={styles.apikeyform}  id="apikey-form" onSubmit={addKey}>
         <p>OpenAI API key not configured. <br>
         </br>please go to <a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a> to get an API key</p>
@@ -60,7 +60,7 @@ export default function Home() {
           onChange={(e) => setKey(e.target.value)}
           />
           <input type="submit" value="Save" />
-      </form>
+      </form>**/
       
       <main className={styles.main}>
         <img src="/thera.png" className={styles.icon} />
@@ -75,7 +75,7 @@ export default function Home() {
           />
           <input type="submit" value="Send" />
         </form>
-        <div className={styles.result}><p>{result || "My name is Thera. I'm a mental health chatbot designed to help people with mental health issues."}</p></div>
+        <div className={styles.result}><p>{result || "My name is Thera. I'm a mental health chatbot designed to help depressed people"}</p></div>
       </main>
     </div>
   ); 
