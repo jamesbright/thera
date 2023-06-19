@@ -26,6 +26,7 @@ export default function Home() {
       const data = await response.json();
       if (response.status !== 200) {
         //document.getElementById("apikey-form").style.display = "block";
+        alert(`Request failed with status ${response.status}`);
         throw data.error || new Error(`Request failed with status ${response.status}`);
     
       }
