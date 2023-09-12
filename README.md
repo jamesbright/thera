@@ -3,13 +3,16 @@ A mental health chatbot built with Chat-GPT API with customised training.
 if you would like to learn how to train Chat GPT on your own data, please use this link 
 [Train Chat-GPT](https://livechatai.com/blog/how-to-train-chatgpt-on-your-own-data).
 
-4. Install the requirements
+
+
+# follow steps below to run this app
+1. Install the requirements
 
    ```bash
    $ npm install
    ```
 
-5. Make a copy of the example environment variables file
+2. Make a copy of the example environment variables file
 
    On Linux systems: 
    ```bash
@@ -19,9 +22,9 @@ if you would like to learn how to train Chat GPT on your own data, please use th
    ```powershell
    $ copy .env.example .env
    ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
+3. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
 
-7. Run the app
+4. Run the app
 
    ```bash
    $ npm run dev
