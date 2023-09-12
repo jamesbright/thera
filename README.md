@@ -1,6 +1,7 @@
 # Thera mental health bot
-
-
+A mental health chatbot built with Chat-GPT API with customised training.
+if you would like to learn how to train Chat GPT on your own data, please use this link 
+[Train Chat-GPT](https://livechatai.com/blog/how-to-train-chatgpt-on-your-own-data).
 
 4. Install the requirements
 
